@@ -2,7 +2,7 @@
 MacCormack solver for Burgers equation
 
 Burgers equation:
-$$\frac{\partial{u}}{\partial{t}} + u_x \frac{\partial{u}}{\partial{x}} = \frac{1}{Re}\frac{\partial^2{u}}{\partial{x}^2}$$
+$$\frac{\partial{u}}{\partial{t}} + u\frac{\partial{u}}{\partial{x}} = \frac{1}{Re}\frac{\partial^2{u}}{\partial{x}^2}$$
 where 
 $$u(-50, 0) = u(-50, t) = -1$$
 $$u(50, 0) = u(50, t) = 1$$
